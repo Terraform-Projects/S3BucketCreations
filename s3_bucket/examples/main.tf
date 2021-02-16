@@ -1,5 +1,5 @@
 module s3_bucket {
-  source = "github.com/jakeasarus/terraform/s3_bucket"
-  bucket_prefix = "this-is-only-a-test-bucket-delete-me-123"
-  target_bucket = "this-is-the-target-bucket"
+  source = "github.com/Terraform-Projects/S3BucketCreations/tree/master/s3_bucket"
+  bucket_prefix = "dev"
+  target_bucket = "dev"
 }
